@@ -41,8 +41,6 @@ public class Main {
             if (max < spend) {
                 max = spend;
             }
-        }
-        for (int spend : spending) {
             if (min > spend) {
                 min = spend;
             }
@@ -55,7 +53,7 @@ public class Main {
     public static void task3() {
         System.out.println("\nЗадача_3");
         int[] spending = generateRandomArray();
-        int sum = 0;
+        double sum = 0;
 
         for (int spend : spending) {
             sum += spend;
